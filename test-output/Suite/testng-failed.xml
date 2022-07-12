@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite parallel="none" name="Failed suite [Suite]">
+  <test parallel="none" name="Test(failed)">
+    <classes>
+      <class name="Clipboard.Automation.AmazonTest">
+        <methods>
+          <include name="VerifyAmazonHomePageHamburgerMenuOptions"/>
+          <include name="VerifyProductDetailspage"/>
+          <include name="VerifySearchpage"/>
+          <include name="VerifyAmazonHomePageTitle"/>
+        </methods>
+      </class> <!-- Clipboard.Automation.AmazonTest -->
+      <class name="Clipboard.Automation.SampleTest">
+        <methods>
+          <include name="Hello"/>
+        </methods>
+      </class> <!-- Clipboard.Automation.SampleTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
